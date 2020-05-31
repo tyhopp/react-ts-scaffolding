@@ -7,6 +7,8 @@ A set of components arranged in a typical page layout.
 3. `yarn test` to run unit tests
 
 ## Project
+Set up with the [create-react-app](https://create-react-app.dev) TypeScript template.
+
 This project is a Single Page Application in the literal sense. If multiple pages were required, I'd add a router in `app.tsx` and move all pages to a `pages` or `templates` directory.
 
 Components follow this structure:

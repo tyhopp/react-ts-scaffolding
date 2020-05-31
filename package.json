@@ -1,6 +1,7 @@
 {
   "name": "react-ts-scaffolding",
   "version": "0.1.0",
+  "author": "Ty Hopp (https://tyhopp.com)",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
