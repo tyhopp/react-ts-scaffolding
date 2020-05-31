@@ -4,9 +4,9 @@ import './counter.css';
 function Counter() {
   return (
     <div className="counter">
-      <p className="counter-title">
+      <h1 className="counter-title">
         I'm a counter
-      </p>
+      </h1>
       <p className="counter-description">
         I'll showcase a bit of React and TypeScript.
       </p>

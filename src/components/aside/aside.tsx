@@ -3,9 +3,9 @@ import './aside.css';
 
 function Aside() {
   return (
-    <div className="aside">
-      <p>Hello world!</p>
-    </div>
+    <aside className="aside">
+      <p className="aside-title">I'm an aside</p>
+    </aside>
   );
 }
 
