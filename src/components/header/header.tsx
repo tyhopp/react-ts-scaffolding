@@ -3,9 +3,11 @@ import './header.css';
 
 function Header() {
   return (
-    <div className="header">
-      <p>Hello world!</p>
-    </div>
+    <header className="header">
+      <p className="header-title">
+        I'm a header
+      </p>
+    </header>
   );
 }
 
