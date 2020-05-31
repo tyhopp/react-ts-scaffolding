@@ -24,3 +24,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.app-content {
+  display: flex;
+}
+
+.app-content-main {
+  display: flex;
+  flex: 1;
+  height: 400px;
+}
+
+.app-content-counter {
+  flex: 1;
+}
+
+.app-content-aside--left,
+.app-content-aside--right {
+  min-width: 250px;
+}
