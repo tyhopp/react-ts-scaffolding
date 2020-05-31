@@ -1,11 +1,11 @@
 import React from 'react';
 import './button.css';
 
-type ButtonProps = {
+type Props = {
   text: string
 }
 
-function Button(props: ButtonProps) {
+function Button(props: Props) {
   return (
     <button className="button">
       <span>{props.text}</span>
