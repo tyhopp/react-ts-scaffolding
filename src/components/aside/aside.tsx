@@ -1,13 +1,14 @@
 import React from 'react';
+import './aside.css';
 
-function App() {
+function Aside() {
   return (
-    <div className="app">
+    <div className="aside">
       <p>Hello world!</p>
     </div>
   );
 }
 
 export {
-  App
+  Aside
 }

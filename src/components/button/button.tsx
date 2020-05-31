@@ -1,13 +1,14 @@
 import React from 'react';
+import './button.css';
 
-function App() {
+function Button() {
   return (
-    <div className="app">
+    <div className="button">
       <p>Hello world!</p>
     </div>
   );
 }
 
 export {
-  App
+  Button
 }

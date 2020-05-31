@@ -1,13 +1,14 @@
 import React from 'react';
+import './header.css';
 
-function App() {
+function Header() {
   return (
-    <div className="app">
+    <div className="header">
       <p>Hello world!</p>
     </div>
   );
 }
 
 export {
-  App
+  Header
 }

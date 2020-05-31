@@ -1,13 +1,14 @@
 import React from 'react';
+import './footer.css';
 
-function App() {
+function Footer() {
   return (
-    <div className="app">
+    <div className="footer">
       <p>Hello world!</p>
     </div>
   );
 }
 
 export {
-  App
+  Footer
 }

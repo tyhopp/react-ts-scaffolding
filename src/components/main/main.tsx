@@ -1,13 +1,14 @@
 import React from 'react';
+import './main.css';
 
-function App() {
+function Main() {
   return (
-    <div className="app">
+    <div className="main">
       <p>Hello world!</p>
     </div>
   );
 }
 
 export {
-  App
+  Main
 }
