@@ -2,7 +2,7 @@
 A set of components arranged in a typical page layout.
 
 ## Usage
-1. `npm i`
+1. `yarn install`
 2. `yarn start` to run the project locally
 3. `yarn test` to run unit tests
 
