@@ -1,6 +1,10 @@
 # React + TypeScript Scaffolding
 A set of components arranged in a typical page layout.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/768e284c-ed94-4c2d-97b8-4f58784b42db/deploy-status)](https://app.netlify.com/sites/react-ts-scaffolding/deploys)
+
+This project is deployed at [react-ts-scaffolding.netlify.app](https://react-ts-scaffolding.netlify.app).
+
 ## Usage
 1. `yarn install`
 2. `yarn start` to run the project locally
