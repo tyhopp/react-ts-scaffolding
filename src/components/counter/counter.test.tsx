@@ -7,9 +7,3 @@ test('renders the counter title', () => {
   const text = getByText(/I'm a counter/i);
   expect(text).toBeInTheDocument();
 });
-
-test('renders the counter description', () => {
-  const { getByText } = render(<Counter />);
-  const text = getByText(/I'll showcase a bit of React and TypeScript./i);
-  expect(text).toBeInTheDocument();
-});

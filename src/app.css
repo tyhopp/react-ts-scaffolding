@@ -1,14 +1,25 @@
 html {
   --text: #000;
   --background: #FFF;
-  --border: darkslateblue;
+  --dark-green: #3b421d;
+  --tan: #bca77d;
+  --green: #4d6e2c;
+  --gray: #6e6858;
+  --gold: #b79d50;
+  --light-green: #989552;
 }
 
+/* Example for using OS theme preference */
 @media (prefers-color-scheme: dark) {
   html {
     --text: #FFF;
     --background: #000;
-    --border: mediumslateblue;
+    --dark-green: #3b421d;
+    --tan: #bca77d;
+    --green: #4d6e2c;
+    --gray: #6e6858;
+    --gold: #b79d50;
+    --light-green: #989552;
   }
 }
 

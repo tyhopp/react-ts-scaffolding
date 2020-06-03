@@ -1,5 +1,16 @@
 .aside {
   flex: 1;
   padding: 1em;
-  border: 1px dashed var(--border);
+}
+
+.aside[data-bg="green"] {
+  background-color: var(--green);
+}
+
+.aside[data-bg="gray"] {
+  background-color: var(--gray);
+}
+
+.aside[data-bg="gold"] {
+  background-color: var(--gold);
 }

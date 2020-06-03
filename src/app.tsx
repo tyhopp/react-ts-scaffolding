@@ -12,15 +12,15 @@ function App() {
       <main className="app-content">
         <section className="app-content-main">
           <div className="app-content-aside--left">
-            <Aside></Aside>
-            <Aside></Aside>
+            <Aside bg="green"></Aside>
+            <Aside bg="gray"></Aside>
           </div>
           <div className="app-content-counter">
             <Counter></Counter>
           </div>
         </section>
         <div className="app-content-aside--right">
-          <Aside></Aside>
+          <Aside bg="gold"></Aside>
         </div>
       </main>
       <Footer></Footer>

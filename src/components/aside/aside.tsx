@@ -1,9 +1,13 @@
 import React from 'react';
 import './aside.css';
 
-function Aside() {
+type Props = {
+  bg: string
+}
+
+function Aside(props: Props) {
   return (
-    <aside className="aside">
+    <aside className="aside" data-bg={props.bg}>
       <p className="aside-title">I'm an aside</p>
     </aside>
   );
